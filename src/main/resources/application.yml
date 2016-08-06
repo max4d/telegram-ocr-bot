@@ -1,0 +1,15 @@
+ocr:
+  url: http://localhost:9292
+bot:
+  token: token
+  admin: 007
+schedule:
+  milliseconds: 5000
+
+logging:
+    file: logs/bot.log
+    pattern:
+        console: "%d %-5level %logger : %msg%n"
+        file: "%d %-5level [%thread] %logger : %msg%n"
+    level:
+      com.filimons.ocr: INFO
